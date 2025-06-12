@@ -5,7 +5,10 @@ docker build . -t rag
 
 ```sh
 docker rm rag
+docker run --gpus all -it -v /home/raus/Qwen:/pic --name rag rag
+```
 
+```sh
 docker run --gpus all -it -e PYTORCH_CUDA_ALLOC_CONF=expandable_segments:True -v /home/raus/Qwen:/pic --name rag rag
 ```
 
