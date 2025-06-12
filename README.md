@@ -28,7 +28,7 @@ Start the container
 ```
 
 ```sh
-docker exec -it alex bash
+docker exec -it rag bash
 ```
 
 ```sh
